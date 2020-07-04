@@ -8,8 +8,8 @@ spec:
     app: petclinic
   ports:
   - protocol: TCP
-    port: 8080
-    nodePort: 8080
+    port: 32760
+    nodePort: 32760
 
 ---
 
@@ -35,4 +35,4 @@ spec:
       - name: train-schedule
         image: ashish158/practice:$BUILD_NUMBER
         ports:
-        - containerPort: 8080
+        - containerPort: 32760
