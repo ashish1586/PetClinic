@@ -24,7 +24,6 @@ spec:
   selector:
     matchLabels:
       app: petclinic
-      track: stable
   template:
     metadata:
       labels:
