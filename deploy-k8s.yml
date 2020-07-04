@@ -29,7 +29,6 @@ spec:
     metadata:
       labels:
         app: petclinic
-        track: stable
     spec:
       containers:
       - name: train-schedule
