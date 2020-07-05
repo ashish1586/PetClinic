@@ -30,7 +30,7 @@ spec:
         app: petclinic
     spec:
       containers:
-      - name: train-schedule
+      - name: petclinic
         image: ashish158/practice:$BUILD_NUMBER
         ports:
         - containerPort: 32760
